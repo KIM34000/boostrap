@@ -1,0 +1,201 @@
+body{
+  font-family: "Segoe UI"!important;
+}
+
+/* Pour déroger la couleur de mouse hover sur la navBar */
+.nav-link:hover {
+    color: #be5757 !important;
+}
+
+/* Pour faire un effet souligné de la page active de la nav bar */
+.actif{
+    color:#bb0d30 !important;
+    border-bottom: 4px solid #bb0d30 !important;
+}
+
+/* hauteur des photos du carousselle et de photos de top */
+.hauteur-carousel{
+  height: 579px !important;
+}
+
+/* hauteur des photos de top petit */
+.hauteur-image-top-petit{
+  height:200px
+}
+
+/* Pour la hauteur du footer */
+.hauteur-footer{
+  height: 200px;
+}
+
+/* Pour la hauteur du bouton haut et retour page */
+.tailleBouton{
+  height:70px;
+  width: 70px;
+  margin-right: 50px;
+}
+
+.tailleiconreseau{
+  height:60px;
+  width: 60px;
+}
+
+/* pour les background gris */
+.bg-grey{
+  background-color: #f1f1f1;
+}
+
+/* pour fixer la largeur de la card */
+.tailleCard{
+  width: 361px;
+}
+/* fixer la taille barre bouton des card */
+.tailleBarreButon{
+  width: 270px;
+}
+
+/* Média pour qui fixe la taille menu en petit écran */
+@media screen and (max-width: 768px) {
+    .nav-taille {
+      width: 100px;
+    }
+  }
+
+.text_map{
+  margin-left: 50px;
+}
+
+a.btn{
+  background-color: #bb0d30 !important;
+  font: italic normal 200 15px/23px Segoe UI !important;
+  
+}
+a.btn:hover{
+  background-color: #be5757;
+
+}
+
+.icon_hover:hover{
+  border-bottom: white;
+}
+.text_rouge{
+  color: #bb0d30;  
+}
+.dashed{  
+  border-bottom: 2px dashed #bb0d30;
+}
+
+.grey {
+  color: #707070;
+  font: italic normal 600 25px/25px Segoe UI !important;  
+}
+.dashed_blanc{
+  border-bottom: 2px dashed white;
+}
+.text_center{
+  text-align: center;
+}
+.container-imageindex{
+  width: 50%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.sizing {
+  height: 100%;
+  width: 100%;
+}
+
+.img_1 {
+  grid-column: 1;
+  grid-row: 1 / span 3;
+}
+.img_2 {
+  grid-column: 2;
+
+  grid-row: 1 / span 4;
+}
+.img_3 {
+  grid-column: 1;
+
+  grid-row: 4 / span 6;
+}
+.img_4 {
+  grid-column: 2;
+
+  grid-row: 5 / span 6;
+}
+
+.text-danger{
+  color: #bb0d30 !important;
+}
+
+.btn-danger{
+  background: #bb0d30 !important;
+}
+
+.font-bouton{
+  font: italic normal 200 25px/33px Segoe UI !important;
+}
+.card-title{
+  font: italic normal 600 25px/25px Segoe UI !important;
+}
+.font-retour{
+  font: italic normal 600 22px/30px Segoe UI;
+}
+
+.font-h2{
+
+  font-weight: 600;
+font-stretch: normal;
+font-size: 35px;
+line-height: 35px;
+  font: italic normal 600 45px/60px Segoe UI;
+}
+
+.font-h1{
+  font: italic normal 600 45px/60px Segoe UI;
+}
+.icon{
+  width: 50px;
+  height: 50px;
+}
+.grey_2{
+  color: #707070;
+}
+.font-h3{
+  font: italic normal 600 45px/45px Segoe UI;
+}
+
+/* pour ne pas écraser les image du carouselle responsive */
+.fit-taille{
+  object-fit:cover;
+}
+
+/* bouton rond pour carrouselle */
+.btn-circle {
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 50% !important;
+  font-size: 8px !important;
+  text-align: center !important;
+  }
+
+.index{
+  z-index: 10;
+}
+
+.bg-danger{
+  background-color: #BB0D30;
+}
+
+/* marge top pour contrer le sticky de la navbar */
+.marge-navbar{
+margin-top: 60px;
+}
+
+.min-width-pseudo{
+  width:90px;
+}
